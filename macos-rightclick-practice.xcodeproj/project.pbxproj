@@ -12,6 +12,7 @@
 		9BA26C7C27B4A98100BDB916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA26C7B27B4A98100BDB916 /* Assets.xcassets */; };
 		9BA26C7F27B4A98100BDB916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA26C7E27B4A98100BDB916 /* Preview Assets.xcassets */; };
 		9BA26C8227B4A98100BDB916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA26C8027B4A98100BDB916 /* Main.storyboard */; };
+		9BA26C8B27B4AABF00BDB916 /* View+RightClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA26C8A27B4AABF00BDB916 /* View+RightClick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9BA26C8127B4A98100BDB916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BA26C8327B4A98100BDB916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA26C8427B4A98100BDB916 /* macos_rightclick_practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macos_rightclick_practice.entitlements; sourceTree = "<group>"; };
+		9BA26C8A27B4AABF00BDB916 /* View+RightClick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RightClick.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				9BA26C7727B4A98000BDB916 /* AppDelegate.swift */,
 				9BA26C7927B4A98000BDB916 /* ContentView.swift */,
+				9BA26C8A27B4AABF00BDB916 /* View+RightClick.swift */,
 				9BA26C7B27B4A98100BDB916 /* Assets.xcassets */,
 				9BA26C8027B4A98100BDB916 /* Main.storyboard */,
 				9BA26C8327B4A98100BDB916 /* Info.plist */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA26C8B27B4AABF00BDB916 /* View+RightClick.swift in Sources */,
 				9BA26C7A27B4A98000BDB916 /* ContentView.swift in Sources */,
 				9BA26C7827B4A98000BDB916 /* AppDelegate.swift in Sources */,
 			);
